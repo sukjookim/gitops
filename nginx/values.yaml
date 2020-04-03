@@ -8,7 +8,8 @@ image:
   repository: 192.168.0.106:32002/repository/toast-docker/comicbox
   pullPolicy: IfNotPresent
 
-imagePullSecrets: []
+imagePullSecrets:
+- name: regcred
 nameOverride: ""
 fullnameOverride: ""
 
